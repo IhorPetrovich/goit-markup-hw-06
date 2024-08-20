@@ -495,41 +495,45 @@ margin-bottom: 16px;
     fill: #F4F4FD;
 }
 
-.paragraf-submit{
+.form-title {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #ffffff; 
+    color: #ffffff;
 }
-.form-subscribe{
+
+.subscribe-form {
     display: flex;
     gap: 24px;
 }
-.label-subscribe{
 
+.email-label {
+    /* Add label styles if needed */
 }
 
-.input-email-submit{
+.email-input {
     width: 264px;
     height: 40px;
-    border: 1px solid #ffffff; 
+    border: 1px solid #ffffff;
     background-color: transparent;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
-    border-radius: 4px; 
-    color: #ffffff; 
-}
-.input-email-submit::placeholder{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     color: #ffffff;
 }
-.footer-submit{
+
+.email-input::placeholder {
+    color: #ffffff;
+}
+
+.submit-button {
     min-width: 165px;
-    height: 40px; 
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -544,7 +548,8 @@ margin-bottom: 16px;
     border: none;
     border-radius: 4px;
 }
-.svg-footer-submit{
+
+.submit-icon {
     margin-left: 16px;
 }
 /*modal*/
@@ -561,7 +566,6 @@ margin-bottom: 16px;
     opacity: 0;
     pointer-events: none;
     transition: 
-    pointer-events 300ms linear,
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -615,8 +619,8 @@ margin-bottom: 16px;
     border: none;
 }
 
-.close-icon:hover,
-.close-icon:focus{
+.modal-close-btn:hover .close-icon,
+.modal-close-btn:focus .close-icon {
     fill: #ffffff;
 }
 .modal-text{
@@ -753,19 +757,18 @@ text-decoration: underline;
 text-decoration-skip-ink: none;
 color: #4d5ae5;
 }
-
-.modal-submit{
+.modal-submit {
     display: block;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 16px; 
+    font-weight: 500; 
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: #4D5AE5; 
     border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
