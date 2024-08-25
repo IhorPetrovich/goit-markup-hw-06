@@ -624,7 +624,6 @@ margin-bottom: 16px;
     fill: #ffffff;
 }
 .modal-text{
-    margin-top: 24px;
     margin-bottom: 16px;
     width: 360px;
     font-weight: 500;
@@ -692,6 +691,7 @@ line-height: 1.16;
 letter-spacing: 0.04em;
 color: #8e8f99;
 margin-bottom: 16px;
+margin-left: 24px;
 }
 .modal-form-label-comment {
     font-weight: 400;
@@ -759,7 +759,6 @@ color: rgba(46, 47, 66, 0.4);
     color: #8e8f99;;
     cursor: pointer;
     border-radius: 2px;
-border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .user-privacy{
     line-height: 1.3;
@@ -776,6 +775,7 @@ color: #4d5ae5;
     font-weight: 500; 
     line-height: 1.5;
     letter-spacing: 0.04em;
+    margin: 0 auto;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5; 
